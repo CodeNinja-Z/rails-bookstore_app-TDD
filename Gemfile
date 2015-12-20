@@ -35,10 +35,12 @@ group :development, :test do
   gem 'spring'
 
   gem 'rspec-rails', '3.4.0'
+  gem 'spring-commands-rspec'
+  gem 'guard-rspec', require: false
 end
 
 group :test do
-  gem 'rspec-rails', '3.4.0'
+  gem 'capybara', '2.4.4'
 end
 
 group :production do
